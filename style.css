@@ -1,23 +1,17 @@
 body {
     margin: 0;
-    text-align: center;
-}
-
-form label {
-    display: block;
-    font-size: 16px;
-    margin: 5px 0;
-    color: grey;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-form button {
-    display: row;
-    margin: 5px 0;
+form {
+    display: block;
+}
+
+form label {
+    display: flex;
 }
 
 form textarea {
     color: #000; 
     font-size: 2rem;
-
 }
